@@ -15,6 +15,7 @@
 }
 
 *::selection{
+
     background-color: var(--yellow);
     color: #333;
 }
@@ -83,8 +84,9 @@ header{
     flex-flow: column;
 }
 header p{
-    color: white
-    ;
+    color: white;
+    font-size: medium;
+    
 }
 
 header .user img{
@@ -137,6 +139,8 @@ header .navbar ul li a:hover{
     display: none;
 }
 
+/*Home section starts*/
+
 .home{
     display: flex;
     justify-content: center;
@@ -164,6 +168,15 @@ header .navbar ul li a:hover{
     color: #eee;
     padding: 1rem 0;
 }
+
+.home .text{
+    color: aqua;
+}
+
+/*Home section ends*/
+
+
+/*About section starts*/
 
 .about .row{
     display: flex;
@@ -230,6 +243,8 @@ header .navbar ul li a:hover{
     transform: scale(1.2);
 }
 
+/*Portfolio section*/
+
  .portfolio .box-container{
     display: flex;
     align-items: center;
@@ -257,9 +272,25 @@ header .navbar ul li a:hover{
     transform: scale(1.2);
  }
 
+.portfolio .box-container .box .btn{
+    width: 20rem;
+    background: #222;
+    text-align: center;
+    padding: 2rem;
+    margin: 2rem;  
+}
+
+.portfolio .box-container .box .btn:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+
+ /* Contact section*/
+
  .contact .row{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     flex-wrap: wrap;
  }
@@ -302,6 +333,7 @@ resize: none;
 
 .contact .row .content .info h3{
     display: flex;
+    
     align-items: center;
     font-size: 2rem;
     color: #eee;
