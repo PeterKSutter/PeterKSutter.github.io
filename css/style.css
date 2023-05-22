@@ -251,10 +251,10 @@ header .navbar ul li a:hover{
  }
 
  .portfolio .box-container .box{
-    height: 20rem;
+    height: 15rem;
     width: 26rem;
     border-radius: 1rem;
-    margin: 2rem;
+    margin: 0.3rem;
     overflow: hidden;
     cursor: pointer;
  }
@@ -270,11 +270,12 @@ header .navbar ul li a:hover{
  }
 
 .portfolio .box-container .box .btn{
-    width: 20rem;
+    width: 10rem;
     background: #222;
     text-align: center;
-    padding: 2rem;
-    margin: 2rem;  
+    padding: 1rem;
+    margin: 1rem;  
+    font-size: 1em;
 }
 
 .portfolio .box-container .box .btn:hover{
@@ -343,6 +344,9 @@ header .navbar ul li a:hover{
 
 @media(max-width:991px){
 
+    header .user img{
+        display: none;
+    }
         header{
             left: -120%;
         }        
