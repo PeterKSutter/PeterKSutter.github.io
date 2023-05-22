@@ -169,12 +169,6 @@ header .navbar ul li a:hover{
     padding: 1rem 0;
 }
 
-<<<<<<< HEAD
-=======
-.home .text{
-    color: aqua;
-}
->>>>>>> gh-pages
 
 /*Home section ends*/
 
@@ -204,14 +198,14 @@ header .navbar ul li a:hover{
 
 .about .row .info h3 span{
     color: #eee;
-    padding: 0 .5rem;
+    padding: 0.5rem;
 
 }
 
 .about .row .counter{
-    flex: 1 1 48rem;
+    flex:1 1 48rem;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     flex-wrap: wrap;
 }
 
@@ -291,64 +285,31 @@ header .navbar ul li a:hover{
 
  /* Contact section*/
 
- .contact .row{
+.contact .content h3{
     display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-wrap: wrap;
- }
-
-.contact .row .content{
-    flex: 1 1 30rem;
-    padding: 4rem;
-    padding-bottom: 0;
-}
-
-.contact .row form{
-    flex: 1 1 45rem;
-    padding: 2rem;
-    margin: 2rem;
-    padding-bottom: 4rem;
-}
-
-.contact .row form .box{
-    padding: 1.5rem;
-    margin: 1rem 0;
-    background: #3333;
-    color: #fff;
-    text-transform: none;
-    font-size: 1.7rem;
-    width: 100%;
-}
-
-.contact .row form .message{
-
-height: 15rem;
-resize: none;
-}
-
-.contact .row .content .title{
-    text-transform: uppercase;
-    color: #fff;
-    font-size: 3rem;
-    padding-bottom: 2rem;
-}
-
-.contact .row .content .info h3{
-    display: flex;
-    
     align-items: center;
-    font-size: 2rem;
-    color: #eee;
-    padding: 1rem 0;
-    font-weight: normal;
-
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 2em;
 
 }
 
+.contact .sp span{
+    font-size: 4rem;
+    color: var(--yellow);
+}
 
+.contact h3, .contact a{
+    text-decoration: none;
+    color: #fff;
+    align-items: center;
+}
 
-
+.contact i{
+    padding-right: 6px;
+    font-size: 1.5em;
+    justify-content: center;
+}
 
 
 
@@ -387,7 +348,7 @@ resize: none;
         }        
 
     #menu{
-        display: none;
+        display: block;
     }
 
     header.toggle{

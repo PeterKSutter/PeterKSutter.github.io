@@ -6,12 +6,17 @@ $(document).ready(function(){
     
    });
 
-   $(widow).on('scroll load',function(){
+   $(window).on('scroll load',function(){
 
     $('#menu').removeClass('fa-times');
     $('header').removeClass('toggle'); 
 
    });
+
+   //Dynamic date and time
+   dateHolder = document.getElementById("date")
+   todaysYear = new Date().getFullYear()
+   dateHolder.InnerHTML = todaysYear();
   
     //smooth scrolling
 
