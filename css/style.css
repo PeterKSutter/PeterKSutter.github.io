@@ -251,11 +251,11 @@ header .navbar ul li a:hover{
  }
 
  .portfolio .box-container .box{
-    height: 15rem;
-    width: 26rem;
+    height: 14rem;
+    width: 24rem;
     border-radius: 1rem;
-    margin: 0.3rem;
-    overflow: hidden;
+    margin: 4rem;
+    /* overflow: hidden; */
     cursor: pointer;
  }
 
@@ -295,6 +295,16 @@ header .navbar ul li a:hover{
 
 }
 
+.contact .content .info h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 2em;
+    color: #f9ca24;
+
+}
+
 .contact .sp span{
     font-size: 4rem;
     color: var(--yellow);
@@ -306,10 +316,16 @@ header .navbar ul li a:hover{
     align-items: center;
 }
 
-.contact i{
+.contact .content .info h2 i{
     padding-right: 6px;
     font-size: 1.5em;
     justify-content: center;
+    color: #fff;
+}
+
+.contact .content .info h2 hr{
+    color: #fff;
+    font-size: medium;
 }
 
 
@@ -368,7 +384,42 @@ header .navbar ul li a:hover{
 
     html{
         font-size: 50%;
-    }        
+    }       
+    
+    #menu{
+        padding-top: 2rem;
+        display: block;
+    }
+
+    
+    .portfolio .box-container .box{
+        height: 9rem;
+        width: 16rem;
+        border-radius: 1rem;
+        margin: 4rem;
+    }
+
+    
+.about .row .counter .box{
+    width: 20rem;
+    background: #222;
+    text-align: center;
+    padding: 2rem;
+    margin: 2rem;
+    margin-left:2rem;
+}
+
+.about .skill-container .skill img{
+    height: 85%;
+    width: 85%;
+    object-fit: cover;
+ }
+
+ .about .skill-container .skill:hover img{
+    height: 95%;
+    width: 95%;
+    object-fit: cover;
+ }
 }
 
 @media(max-width:400px){
